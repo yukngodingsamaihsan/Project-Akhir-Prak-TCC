@@ -1,4 +1,4 @@
-const Account = require("./model");
+const Account = require("../models/model");
 
 // exports.findUser = function (req, res){
 //     Account.findUser(req.params.id, function(err,account){
