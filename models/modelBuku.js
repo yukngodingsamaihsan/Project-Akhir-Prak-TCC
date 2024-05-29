@@ -1,4 +1,4 @@
-var dbConn = require("./db");
+var dbConn = require("../db");
 
 var Book = function(book){
     this.idBuku = book.idBuku;

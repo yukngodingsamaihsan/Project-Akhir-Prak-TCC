@@ -1,4 +1,4 @@
-var Penerbit = require("./modelPenerbit");
+var Penerbit = require("../models/modelPenerbit");
 
 // Create a new penerbit
 exports.create = function (req, res) {

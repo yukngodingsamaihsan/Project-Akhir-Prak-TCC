@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const controllerBuku = require("./controllerBuku");
-const controllerPenerbit = require("./controllerPenerbit");
+const controllerBuku = require("./controllers/controllerBuku");
+const controllerPenerbit = require("./controllers/controllerPenerbit");
 
 router.post('/books', controllerBuku.create);
 

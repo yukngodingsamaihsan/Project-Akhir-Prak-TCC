@@ -1,4 +1,4 @@
-const Book = require("./bookModel");  // Ensure to replace "./bookModel" with the actual path to your Book model
+const Book = require("../models/modelBuku");  // Ensure to replace "./bookModel" with the actual path to your Book model
 
 // Create a new book
 exports.create = function (req, res) {
