@@ -2,7 +2,7 @@
 FROM node:18
 
 # Create and change to the app directory
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Copy package.json and package-lock.json
 COPY package*.json ./
@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8080
 
 # Run the application
-CMD ["node", "index.js"]
+CMD ["npm", "start"]
