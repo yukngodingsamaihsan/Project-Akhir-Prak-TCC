@@ -1,13 +1,5 @@
 const Account = require("../models/model");
 
-// exports.findUser = function (req, res){
-//     Account.findUser(req.params.id, function(err,account){
-//         console.log("controller");
-//         if(err) res.send(err);
-//         res.json(account);
-//     });
-// };
-
 exports.findUser = function (req, res) {
     // Extract username and password from the request body
     const newAccount = {

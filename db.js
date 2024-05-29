@@ -2,9 +2,9 @@ const mysql = require("mysql");
 
 const dbConn = mysql.createConnection({
     host: '34.101.47.79',
-    user: 'root',
-    password: '',
-    database: 'data-buku-db'
+    user: 'databukudb',
+    password: 'databuku',
+    database: 'data_buku_service'
 });
 
 dbConn.connect(function(err) {
